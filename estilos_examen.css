@@ -1,13 +1,30 @@
 body{
     background-color: #eee;
+    text-align: center;
+    font-size: 14px;
 }
 header{
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-    padding: 20%;
+    padding: 20px;
+    
 }
-nav{
+ul{
 list-style-type: none;
-
+padding: 0px;
+}
+li{
+    display: inline;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+.fotos {
+    margin-bottom: 20px;
+    border : solid green;
 }
